@@ -22,7 +22,7 @@ install() {
     darwin)
       case $arch in
         arm64 | amd64)
-          download_name=${name}
+          download_name=${name}-macos
           ;;
         *)
         log::error "[$(timestamp)] unsupport arch: $arch"
