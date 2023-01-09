@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export PACKAGE_CORE_NAME="snyk"
+export PACKAGE_COIR_BIN_NAME="$PACKAGE_CORE_NAME"
+export PACKAGE_CORE_VERSION=v1.1082.0
+export PACKAGE_CORE_RELEASE_DOWNLOAD="https://github.com/snyk/cli/releases/download"
